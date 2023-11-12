@@ -44,9 +44,6 @@ easterEgg_textColor = (int(127 + 127 * (pygame.time.get_ticks() % 2000 / 1000)),
 background = pygame.image.load("menus/images/background.png").convert_alpha()
 
 # music / sounds
-music = pygame.mixer.music.load('assets/ogg/HOME-Resonance.ogg')
-pygame.mixer.music.play(-1)
-pygame.mixer.music.set_volume(0.20)
 DICE_SOUND = pygame.mixer.Sound('assets/wav/UI.wav')
 DICE_SOUND.set_volume(0.02)
 clickSound = pygame.mixer.Sound('assets/wav/button_click.wav')
@@ -140,8 +137,6 @@ def mainMenu(menu):
         if loadSaveButton.draw(menu):
             pygame.mixer.Sound.play(clickSound)
             pygame.mixer.music.fadeout(2)
-            pygame.mixer.music.load('assets/ogg/Neon.Deflector - Star Dreamer.ogg')
-            pygame.mixer.music.play(-1, 0, 2)
             print("pressed loadsave")            
             if os.path.exists('./load_game_board.csv'):
                 running = True
@@ -380,9 +375,6 @@ def gameSettingsMenu(menu):
         if startGameButton.draw(menu):
             pygame.mixer.Sound.play(clickSound)
             print(names)
-            pygame.mixer.music.fadeout(2)
-            pygame.mixer.music.load('assets/ogg/Neon.Deflector - Star Dreamer.ogg')
-            pygame.mixer.music.play(-1, 0, 2)
             running = False
             gameMenu(menu, names)
         # event handlers

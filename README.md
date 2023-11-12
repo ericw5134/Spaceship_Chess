@@ -11,11 +11,11 @@
 CMPT 276 Project by Team Fawn
 
 Members:
-- Eric - ysw6@sfu.ca
-- Zhengying - zsa65@sfu.ca
-- Chris - casoo@sfu.ca
-- Curtis Grotzke - cjg17@sfu.ca
-- Grayson - graysonl@sfu.ca
+- Eric 
+- Zhengying 
+- Chris 
+- Curtis Grotzke 
+- Grayson 
 
 ## Summary
 In [FeiXingQi (飞行棋）](https://www.ymimports.com/pages/how-to-play-aeroplane-chess-fei-xing-qi) or Aeroplane Chess, there are 2-4 players in a game, who play with the goal of getting all their planes from their respective bases into the centre of the game board. 
@@ -71,12 +71,10 @@ sudo apt-get install python3-pygame
 ## Installation
 Via https
 ```bash
-git clone https://github.sfu.ca/graysonl/FeiXingQi.git
-cd FeiXingQi
+git clone https://github.com/ericw5134/Spaceship_Chess.git
 ```
 or 
 Via ssh
 ```bash
-git clone git@github.sfu.ca:graysonl/FeiXingQi.git
-cd FeiXingQi
+git git@github.com:ericw5134/Spaceship_Chess.git
 ```
