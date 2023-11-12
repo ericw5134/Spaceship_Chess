@@ -1,0 +1,67 @@
+BASE_UL_RATIO = (0.33, 0.2)
+BASE_UR_RATIO = (0.33, 0.8)
+BASE_LL_RATIO = (0.66, 0.2)
+BASE_LR_RATIO = (0.66, 0.8)
+BASE_TUPLE = ((0.33, 0.2),(0.66, 0.8) ,(0.33, 0.8) ,(0.66, 0.2))
+DEFAULT_NUMBER_OF_PLANES = 4
+PLANE_UNIT_SCALE = 1
+PURPLE_TEAM_INDEX = 0
+BLUE_TEAM_INDEX = 1
+RED_TEAM_INDEX = 2
+TEAL_TEAM_INDEX = 3
+
+TILESIZE = 42
+BOXSIZE = 32
+BOARDSIZE = 17
+OFFSET = (TILESIZE-BOXSIZE)//2
+BOARDORDER = [(0,5),(0,6),(0,7),(0,8),(0,9),(0,10),(0,11),
+              (2,11),(3,11),(4,11),
+              (5,12),(5,13),(5,14),
+              (5,15),(6,15),(7,15),(8,15),(9,15),(10,15),(11,15),
+              (11,14),(11,13),(11,12),
+              (12,11),(13,11),(14,11),
+              (15,11),(15,10),(15,9),(15,8),(15,7),(15,6),(15,5),
+              (14,5),(13,5),(12,5),
+              (11,4),(11,3),(11,2),
+              (11,0),(10,0),(9,0),(8,0),(7,0),(6,0),(5,0),
+              (5,2),(5,3),(5,4),
+              (4,5),(3,5),(2,5)]
+
+PURPLEENDING = [(8,14),(8,13),(8,12),(8,11),(8,10),(8,9)]
+BLUEENDING = [(14,8),(13,8),(12,8),(11,8),(10,8),(9,8)]
+REDENDING = [(8,2),(8,3),(8,4),(8,5),(8,6),(8,7)]
+TEALENDING = [(2,8),(3,8),(4,8),(5,8),(6,8),(7,8)]
+
+LASTSQUARES = [(8,9),(9,8),(8,7),(7,8)]
+
+
+PURPLEBASE = [(13,13),(13,14),(14,14),(14,13)]
+BLUEBASE = [(13,2),(13,3),(14,3),(14,2)]
+REDBASE = [(2,2),(2,3),(3,3),(3,2)]
+TEALBASE = [(2,13),(2,14),(3,14),(3,13)]
+
+# Starting index relative to BOARDORDER
+PURPLESTART = 19
+BLUESTART = 32
+REDSTART = 45
+TEALSTART = 6
+
+PURPLEEND = 16
+BLUEEND = 29
+REDEND = 42
+TEALEND = 3
+
+LAUNCHSQUARES = [(15,12), (4,15), (0,4), (12,0)]
+
+PURPLESTARTINDICATOR = (15,12)
+BLUESTARTINDICATOR = (4,15)
+REDSTARTINDICATOR = (0,4)
+TEALSTARTINDICATOR = (12,0)
+
+PURPLELAUNCHSQUARE = (12,15)
+BLUELAUNCHSQUARE = (15,4)
+REDLAUNCHSQUARE = (4,0)
+TEALLAUNCHSQUARE = (0,12)
+
+NUMOFSQUARES = 52
+BOARDMODULO = NUMOFSQUARES
